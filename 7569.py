@@ -1,7 +1,6 @@
 #토마토
 from collections import deque
 import sys
-from types import DynamicClassAttribute
 m, n, h = map(int, sys.stdin.readline().split())
 array = [[] for _ in range(h)]
 num = 1

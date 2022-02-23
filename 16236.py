@@ -1,5 +1,4 @@
 #아기상어
-from array import array
 from collections import deque
 from math import inf
 import sys
@@ -50,6 +49,4 @@ while True:
             eat = 0
     else:
         break
-
 print(seccnt)
-

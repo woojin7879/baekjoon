@@ -1,4 +1,4 @@
-#공유기 설치 파이썬
+#공유기 설치
 import sys
 n, c = map(int, sys.stdin.readline().split())
 house = []

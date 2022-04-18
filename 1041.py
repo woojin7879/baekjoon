@@ -17,4 +17,7 @@ sum = 0
 sum += min1 * n1
 sum += min2 * n2
 sum += min3 * n3
-print(sum)
+if n > 1:
+    print(sum)
+else:
+    print(sum(dice)-max(dice))

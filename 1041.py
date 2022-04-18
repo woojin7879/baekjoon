@@ -13,11 +13,12 @@ min3 = sum(mindice)
 n1 = 4 * (n - 2) * (n - 1) + (n - 2) ** 2
 n2 = 4 * (n - 1) + 4 * (n - 2)
 n3 = 4
-sum = 0
-sum += min1 * n1
-sum += min2 * n2
-sum += min3 * n3
+ans = 0
+ans += min1 * n1
+ans += min2 * n2
+ans += min3 * n3
 if n > 1:
-    print(sum)
+    print(ans)
 else:
-    print(sum(dice)-max(dice))
+    ans = sum(dice) - max(dice)
+    print(ans)
